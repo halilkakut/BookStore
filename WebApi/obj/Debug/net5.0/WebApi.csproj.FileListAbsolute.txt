@@ -32,3 +32,6 @@ C:\Users\ASUS\Desktop\Halil\VsCodeProjects\Pratikler\BookStore\WebApi\bin\Debug\
 C:\Users\ASUS\Desktop\Halil\VsCodeProjects\Pratikler\BookStore\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\ASUS\Desktop\Halil\VsCodeProjects\Pratikler\BookStore\WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\ASUS\Desktop\Halil\VsCodeProjects\Pratikler\BookStore\WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Desktop\Halil\VsCodeProjects\Pratikler\BookStore\WebApi\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\ASUS\Desktop\Halil\VsCodeProjects\Pratikler\BookStore\WebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ASUS\Desktop\Halil\VsCodeProjects\Pratikler\BookStore\WebApi\bin\Debug\net5.0\FluentValidation.dll
