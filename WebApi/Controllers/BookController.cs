@@ -57,13 +57,6 @@ namespace WebApi.AddControllers
             return Ok(result);
         }
 
-        // [HttpGet]
-        // public Book Get([FromQuery] string id)
-        // {
-        //     var book = BookList.Where(book=>book.Id == Convert.ToInt32(id)).SingleOrDefault();
-        //     return book;   
-        // }
-
         //Post
         [HttpPost]
         public IActionResult AddBook([FromBody] CreateBookModel newBook)
@@ -121,20 +114,13 @@ namespace WebApi.AddControllers
         [HttpDelete]
         public IActionResult DeleteBook(int id)
         {
+
+            DeleteBookCommand command = new DeleteBookCommand(_context);
+            command.BookId = id;
+            DeleteBookCommandValidator validator = new DeleteBookCommandValidator();
+            validator.ValidateAndThrow(command);
+            command.Handle();
             
-            try
-            {
-                DeleteBookCommand command = new DeleteBookCommand(_context);
-                command.BookId = id;
-                DeleteBookCommandValidator validator = new DeleteBookCommandValidator();
-                validator.ValidateAndThrow(command);
-                command.Handle();
-            }
-            catch (Exception ex)
-            {
-                
-                return BadRequest(ex.Message);
-            }
             return Ok();
         }
 
