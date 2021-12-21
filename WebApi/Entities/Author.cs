@@ -12,5 +12,8 @@ namespace WebApi.Entities
         public string Surname { get; set; }
         [DataType(DataType.Date)]
         public DateTime BirthDate { get; set; }
+
+        public int BookId { get; set; }
+        public Book Book { get; set; }
     }
 }
