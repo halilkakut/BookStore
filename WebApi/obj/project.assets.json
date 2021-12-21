@@ -1003,23 +1003,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\halil\\.nuget\\packages\\": {},
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\halil\\Desktop\\WebProjects\\VisualStudioCodeProjects\\WebProjects\\BookStore\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Halil\\VsCodeProjects\\BookStoreGit\\BookStore\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\halil\\Desktop\\WebProjects\\VisualStudioCodeProjects\\WebProjects\\BookStore\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\halil\\Desktop\\WebProjects\\VisualStudioCodeProjects\\WebProjects\\BookStore\\WebApi\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\Halil\\VsCodeProjects\\BookStoreGit\\BookStore\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\Halil\\VsCodeProjects\\BookStoreGit\\BookStore\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1028,7 +1028,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
       },
       "frameworks": {
         "net5.0": {
@@ -1093,7 +1094,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

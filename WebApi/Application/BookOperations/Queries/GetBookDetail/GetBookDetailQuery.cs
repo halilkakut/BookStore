@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using WebApi.Common;
 using WebApi.DBOperations;
 
-namespace WebApi.BookOperations.GetBookDetail
+namespace WebApi.Application.BookOperations.Queries.GetBookDetail
 {
     public class GetBookDetailQuery
     {
@@ -23,7 +23,7 @@ namespace WebApi.BookOperations.GetBookDetail
 
          public BookDetailViewModel Handle()
          {
-             var book = _dbContext.Books.Where(book => book.Id == BookId).SingleOrDefault();
+             var book = _dbContext.Books.Include(x=>x.Genre).Where(book => book.Id == BookId).SingleOrDefault();
              if (book is null)
              {
                  throw new InvalidOperationException("Kitap mevcut değil");

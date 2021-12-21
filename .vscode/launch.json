@@ -14,7 +14,7 @@
             "program": "${workspaceFolder}/WebApi/bin/Debug/net5.0/WebApi.dll",
             "args": [],
             "cwd": "${workspaceFolder}/WebApi",
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "serverReadyAction": {
                 "action": "openExternally",
                 "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
