@@ -32,6 +32,7 @@ namespace WebApi.DBOperations{
                         Name = "Halil",
                         Surname = "Kakut",
                         BirthDate = new DateTime(1993,11,08)
+                        
                     },
                     new Author{
                         Name = "ibrahim",
@@ -52,21 +53,24 @@ namespace WebApi.DBOperations{
                         Title = "Lean Startup",
                         GenreId = 1, //personal growth
                         PageCount = 200,
-                        PublishDate = new DateTime(2001,06,12)
+                        PublishDate = new DateTime(2001,06,12),
+                        AuthorId = 3
                     },
                     new Book{
                         //Id =2,
                         Title = "Herland",
                         GenreId = 2, //Science Fiction
                         PageCount = 250,
-                        PublishDate = new DateTime(2010,05,12)
+                        PublishDate = new DateTime(2010,05,12),
+                        AuthorId = 1
                     },
                     new Book{
                         //Id =3,
                         Title = "Dune",
                         GenreId = 2, //Science Fiction
                         PageCount = 540,
-                        PublishDate = new DateTime(2010,10,21)
+                        PublishDate = new DateTime(2010,10,21),
+                        AuthorId = 2
                     }
                 );
 
